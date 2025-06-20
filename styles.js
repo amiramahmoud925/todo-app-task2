@@ -74,4 +74,16 @@ export const styles = StyleSheet.create({
   doneTodo: {
     textDecorationLine: "line-through",
   },
+  todoItem: {
+  flexDirection: "row",
+  justifyContent: "space-between",
+  alignItems: "center",
+  padding: 12,
+  marginVertical: 6,
+  backgroundColor: "#f9f9f9",
+  borderRadius: 8,
+  borderWidth: 1,
+  borderColor: "#ccc"
+}
+
 });
